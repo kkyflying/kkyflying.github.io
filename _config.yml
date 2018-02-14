@@ -26,7 +26,7 @@ github_username:  kkyflying
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: minima
 # plugins:
   # - jekyll-feed
 
