@@ -16,7 +16,7 @@
 title: kky
 email: kkyflying@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to kky blog, I will update the article about Android, Python from time to time,
+  Welcome to kky blog, I will update the article about Android&Python or more,
   if you have any questions or suggestions, you can commemt at https://github.com/kkyflying/kkyflying.github.io/issues
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
