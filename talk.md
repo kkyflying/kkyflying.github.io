@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "关于"
-date:   2018-02-14 20:01:49 +0800
-categories: me
+layout: page
+title: 杂谈
+permalink: /talk/
 ---
 
 #### 2018-4-26
