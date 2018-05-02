@@ -7,7 +7,9 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          {% include icon-github.html username=site.github_username %}
+          {% include icon-github.html username=site.github_username %}<li>
+          {% include icon-gmail.html email=site.email %}
+          
           {% comment %} <li>
             {% if site.author %}
               {{ site.author | escape }}
