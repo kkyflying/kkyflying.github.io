@@ -15,7 +15,7 @@ tag: Android,Framework
 
 1.把全部图片都按照**顺序命名**好,并且放在android文件夹下,例如:
 
-![1]({{ site.url }}/img/2018-05-03-Android_Start_Animation_1.png)
+![1]({{ site.url }}/img/2018-05-03-Android_Framework_Start_Animation_1.png)
 
 2.新建**desc.txt**文件,写入
 ```
