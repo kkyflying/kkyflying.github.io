@@ -128,6 +128,7 @@ tags: Android,Framework,RK
 
 **5.** 为了验证结论,直接进入adb修改**/system/build.prop**文件,添加上**ro.udisk.visible=true**,再reboot.
 然后完成重启后进入播放器就能读到U盘中的数据了.但是这个样只是临时修改,要新生产的固件也能使用的话,需要添加**./device/rockchip/common/device.mk**上添加,然后重新编译打包即可.
+(PS:这里感谢一下RK那边的老哥们的指点,和他们交流下也能学到不少.)
 
 问题解决了,现在要研究一下原理的东西了
 
