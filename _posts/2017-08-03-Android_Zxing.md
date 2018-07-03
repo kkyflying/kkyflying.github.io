@@ -3,7 +3,9 @@ layout: post
 title:  "关于Android Zxing 3.3.0 的填坑"
 date:   2017-08-03 00:25:28 +0800
 categories: Android
-tags: Android,Zxing
+tags: 
+- Android
+- Zxing
 ---
 
 #### 前言

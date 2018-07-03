@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="tag">
+
+  <h1 class="page-heading">Tags</h1>
+
+{% assign t = "Android,Framework" | split: "," %}
+{% for post in site.posts %}
+  
+  {% assign post_tags = post.tags %}
+  {% assign t = t | concat: post_tags%}
+
+{% endfor %}
+{% assign u = t | uniq %}
+{% for item in  u%}
+<h2 class="archive-year motion-element" id="tag">{{ item }}</h2>
+{% endfor %}
+
+
+
+
+
+

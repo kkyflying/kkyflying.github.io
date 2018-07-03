@@ -3,7 +3,10 @@ layout: post
 title:  "RK-Android-Usb无法读取以及原理分析 "
 date:   2018-06-12 18:50:24 +0800
 categories: Android Framework
-tags: Android,Framework,RK
+tags:
+- Android
+- Framework
+- RK
 ---
 
 #### 前言

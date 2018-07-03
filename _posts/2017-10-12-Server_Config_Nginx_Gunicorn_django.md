@@ -3,7 +3,10 @@ layout: post
 title:  "Nginx + Gunicorn + Django 部署"
 date:   2017-10-12 18:38:22 +0800
 categories: Server
-tags: Nginx,Gunicorn,Django
+tags:
+- Nginx
+- Gunicorn
+- Django
 ---
 
 #### 前言
