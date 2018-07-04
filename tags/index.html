@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+<!-- -
+layout: default
+title: Tags
+- -->
 <div class="tag">
 
   <h1 class="page-heading">Tags</h1>
@@ -15,7 +18,8 @@ layout: default
 {% endfor %}
 {% assign u = t | uniq %}
 {% for item in  u%}
-<h2 class="archive-year motion-element" id="tag">{{ item }}</h2>
+{{ item }}
+<!-- <h2 class="item" id="tag">{{ item }}</h2> -->
 {% endfor %}
 
 
