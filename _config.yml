@@ -37,6 +37,9 @@ statement: 本站所有博文内容均为原创，转载请务必注明作者与
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
