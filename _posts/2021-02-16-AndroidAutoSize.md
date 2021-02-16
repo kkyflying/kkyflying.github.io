@@ -391,6 +391,8 @@ private static void setScreenSizeDp(Activity activity, int screenWidthDp, int sc
 ## 参考链接
 
 [支持不同的像素密度](https://developer.android.google.cn/training/multiscreen/screendensities#java) 
+
 [今日头条官方适配方案](https://mp.weixin.qq.com/s/d9QCoBP6kV9VSWvVldVVwA)
+
 [骚年你的屏幕适配方式该升级了!-今日头条适配方案](https://www.jianshu.com/p/55e0fca23b4f)
 
