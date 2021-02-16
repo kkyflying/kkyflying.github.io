@@ -383,8 +383,9 @@ private static void setScreenSizeDp(Activity activity, int screenWidthDp, int sc
 1. 框架就是通过对application注册的Application.ActivityLifecycleCallbacks回调接口，在每一次activity的构建UI之前修改参数。通过默认策略DefaultAutoAdaptStrategy实现
 2. 如果调用AutoSizeConfig#setAutoAdaptStrategy设置自定义的配置模式，那么原来的DefaultAutoAdaptStrategy就被完全代替掉，只会执行自定义的AutoAdaptStrategy
 
-
 ## 5. 类关系图
+
+![]({{ site.url }}/img/AndroidAutoSize1.2.1class.png)
 
 
 ## 参考链接
