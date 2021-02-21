@@ -1,10 +1,10 @@
 ---
 layout: post
+math: true
 title:  "Android分辨率"
 date:   2021-01-08 18:30:28 +0800
-categories: Android 
-tags:
-- Android
+categories: [Android,适配方案]
+tags: [Android]
 ---
 
 

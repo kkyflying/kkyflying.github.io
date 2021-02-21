@@ -2,10 +2,8 @@
 layout: post
 title:  "服务器应用的配置小记录笔记"
 date:   2017-10-12 11:32:05 +0800
-categories: Server
-tags:
-- Tomcat
-- Nginx
+categories: [Server]
+tags: [Tomcat,Nginx]
 ---
 
 #### 修改Tomcat的默认目录

@@ -2,9 +2,8 @@
 layout: post
 title:  "AndroidAutoSize 1.2.1 源码分析"
 date:   2021-02-16 20:33:10  +0800
-categories: Android 
-tags:
-- Android
+categories: [Android,适配方案] 
+tags: [Android,AndroidAutoSize]
 ---
 
 
@@ -385,7 +384,7 @@ private static void setScreenSizeDp(Activity activity, int screenWidthDp, int sc
 
 ## 5. 类关系图
 
-![](/img/AndroidAutoSize1.2.1class.png)
+![](/img/2021-02-16-AndroidAutoSize_class.png)
 
 
 ## 参考链接

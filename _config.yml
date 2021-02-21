@@ -71,7 +71,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -84,7 +84,7 @@ img_cdn: ''
 avatar: /assets/img/icon.jpg
 
 # boolean type, the global switch for ToC in posts.
-toc: ture
+toc: true
 
 disqus:
   comments: false  # boolean type, the global switch for posts comments.

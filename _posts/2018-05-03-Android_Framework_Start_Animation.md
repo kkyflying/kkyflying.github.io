@@ -2,10 +2,8 @@
 layout: post
 title:  "Android系统-修改开机动画"
 date:   2018-05-03 09:56:05 +0800
-categories: Android Framework
-tags:
-- Android
-- Framework
+categories: [Android,Framework]
+tags: [Android,Framework]
 ---
 
 #### 前言
