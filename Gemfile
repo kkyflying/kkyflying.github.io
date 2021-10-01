@@ -15,6 +15,7 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo-data"
   gem "kramdown", ">= 2.3.1"
   gem "addressable", ">= 2.8.0"
+  gem "nokogiri", ">= 1.12.5"
 end
 
 # Performance-booster for watching directories on Windows
