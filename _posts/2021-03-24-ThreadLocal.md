@@ -166,7 +166,7 @@ public class ThreadLocal<T> {
    * @return the initial value
    */
    private T setInitialValue() {
-   	T value = initialValue();fenge
+   	T value = initialValue();
    	Thread t = Thread.currentThread();
    	ThreadLocalMap map = getMap(t);
    	if (map != null)
@@ -205,7 +205,7 @@ public class ThreadLocal<T> {
    }
    ```
 
-   这initialValue()可以被重写,如果直接使用ThreadLocal,而没有先set()设置参数,那么直接返回null,可以通过上面的demo代码验证了.而initialValue()的第一次调当在线程中通过get()获得fenge参数时调用.除非事先调用了set(),在这种情况下,initialValue()将不会被调用在这个线程里,通常,initialValue()这个方法在每个线程中只会被调用一次,但是initialValue()方法也可能会被再一次调用,在之后调用了remove()再调用get()的情况.
+   这initialValue()可以被重写,如果直接使用ThreadLocal,而没有先set()设置参数,那么直接返回null,可以通过上面的demo代码验证了.而initialValue()的第一次调当在线程中通过get()获得参数时调用.除非事先调用了set(),在这种情况下,initialValue()将不会被调用在这个线程里,通常,initialValue()这个方法在每个线程中只会被调用一次,但是initialValue()方法也可能会被再一次调用,在之后调用了remove()再调用get()的情况.
 
 4. **ThreadLocal#remove()**
 
@@ -223,7 +223,7 @@ public class ThreadLocal<T> {
    */
    public void remove() {
    	ThreadLocalMap m = getMap(Thread.currentThread());
-   	if (m != null)fenge
+   	if (m != null)
        	m.remove(this);
    }
    ```
