@@ -141,7 +141,7 @@ public class ThreadLocal<T> {
    ThreadLocal.ThreadLocalMap threadLocals = null;
    ```
    
-   从getMap()中看到这个ThreadLocalMap竟然就是来自传入的Thread中的一个变量,而查看Thread中对这个变量的注解简单翻译来看,*这个ThreadLocal的值属于这个thread,这个map被ThreadLocal所维护持有*.
+   从getMap()中看到这个ThreadLocalMap竟然就是来自传入的Thread中的一个变量,而查看Thread中对这个变量的注释简单翻译来看,*这个ThreadLocal的值属于这个thread,这个map被ThreadLocal所维护持有*.
    
    ```java
    /**
@@ -156,7 +156,7 @@ public class ThreadLocal<T> {
    }
    ```
    
-   根据注解来看,*通过当前ThreadLocal来构建一个ThreadLocalMap,并且把传入一个初始值firstValue来为map构建一个初始的entry*,而createMap()只在get(),set(),setInitialValue()中被调用.
+   根据注释来看,*通过当前ThreadLocal来构建一个ThreadLocalMap,并且把传入一个初始值firstValue来为map构建一个初始的entry*,而createMap()只在get(),set(),setInitialValue()中被调用.
    
    ```java
    /**
