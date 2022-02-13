@@ -1,7 +1,7 @@
 ---
 layout: post
 math: true
-title:  " ThreadLocal分析"
+title:  "ThreadLocal分析"
 date:   2021-03-24 23:26:31 +0800
 categories: [Android,Handler]
 tags: [Android,Handler,ThreadLocal]
@@ -10,12 +10,6 @@ tags: [Android,Handler,ThreadLocal]
 ## 1. ThreadLocal的简单介绍
 
 ```java
-package java.lang;
-import java.lang.ref.*;
-import java.util.Objects;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Supplier;
-
 /**
  * This class provides thread-local variables.  These variables differ from
  * their normal counterparts in that each thread that accesses one (via its
