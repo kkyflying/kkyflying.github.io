@@ -111,6 +111,8 @@ boolean enqueueMessage(Message msg, long when) {
 2. 设一条新消息msg2进来的时候，此时```when==0```，即是这条msg2需要立马执行，因此把msg2插入链表的头部；
 3. 设一条新消息msg3进来的时候，此时```when<p.when```，即是这条msg3比目前在链表头部msg的执行时间更早，因此把msg2插入链表的头部；
 
+![注释1](/img/2022-02-13-MessageQueue_enqueueMessage_1.svg)
+
 #### 2. 当Message不是第一条消息，或者执行时间比队列的消息中要晚的情况
 
 请看在***注释2***的代码：
@@ -118,6 +120,8 @@ boolean enqueueMessage(Message msg, long when) {
 1. 当不符合***注释1***的代码判断后(既不符合第一种情况下)就会进入这里的逻辑
 2.  此时```p=mMessages```，即是p指链表头部，进入for第1次循环，把```prev=p```, 让prev记录链表头部，让```p=p.next```，让p指向链表头部的下一个msg，因此，当第1次循环的时候，设链表头部为第1个消息由，那么prev指向第1个msg，p指向第2个msg， 往后依次类推，当第N次循环的时候，prev指向第n个msg，p指向第n+1个msg
 3. 直到n次循环时，p为null或者新消息的执行时间when比p的执行时间p.when更早的话，则退出循环，把新的msg插入到第n个msg的后面的，完成了消息入队的操作
+
+![注释2](/img/2022-02-13-MessageQueue_enqueueMessage_2.svg)
 
 ## 4. 读取操作 next()
 
