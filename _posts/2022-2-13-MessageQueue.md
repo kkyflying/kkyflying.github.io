@@ -222,3 +222,4 @@ Message next() {
     
     如果```prevMsg```为空的情况下，则表示没有消息屏障，返回的是同步消息，并更新mMessages的执行msg的next;
 
+![注释2](/img/2022-02-13-MessageQueue_enqueueMessage_3.svg)
