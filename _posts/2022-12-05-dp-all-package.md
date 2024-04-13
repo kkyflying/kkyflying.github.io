@@ -53,6 +53,7 @@ dp[i-1][j-k*weight[i]]+k*values[i]
 | 物品0         | 0 | 15 | 30 | 45 | 60 |
 | 物品1         | 0 | 0  | 0  | 0  | 0  |
 | 物品2         | 0 | 0  | 0  | 0  | 0  |
+
 ```
 for(int j=1 ; j<=maxWeight ; j++){
         int k= j/weight[0];
